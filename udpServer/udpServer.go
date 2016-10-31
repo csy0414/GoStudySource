@@ -8,8 +8,8 @@ import (
 	"time"
 )
 
+// FILE_NAME_FORMAT is ...
 const FILE_NAME_FORMAT = "200601021504"
-
 const LOG_TIME_FORMAT = "20060102150405"
 
 func main() {
