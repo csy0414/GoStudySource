@@ -44,3 +44,12 @@ func TestBinaryReadAll(t *testing.T) {
 		t.Errorf("BinaryAllError. : %s", pFile.Name)
 	}
 }
+
+func TestBinaryReadTail(t *testing.T) {
+
+	pFile := BinaryFileOpen("wtmp")
+	r := BinaryReadAll(pFile)
+	if r != true {
+		t.Errorf("BinaryAllError. : %s", pFile.Name)
+	}
+}
